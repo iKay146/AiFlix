@@ -144,7 +144,7 @@ app.get("/api/fetch-user", async (req, res) => {
 
 app.post("/api/logout", async (req, res) => {
   res.clearCookie("token");
-  res.status(200).json({ message: "Logged out sucessfully" });
+  res.status(200).json({ message: "Logged out sucessfully!" });
 });
 app.listen(PORT, () => {
   connectToDB();
