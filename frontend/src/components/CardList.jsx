@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Cardimg from "../assets/Cardimg.jpg";
+import Carding from "../assets/Cardimg.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Link } from "react-router";
